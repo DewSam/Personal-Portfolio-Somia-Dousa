@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Somia Dousa</title>
+    <link rel = "stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a943ea87ed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container"> 
+            <nav>
+
+                <!--img src="images/logo.png" class = "logo"--> 
+                <div class = "logo"></div>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a> </li>
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#services">Services</a> </li>
+                    <li><a href="#portfolio">Portfolio</a> </li>
+                    <li><a href="#contact">Contact</a> </li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+        <div class="header-text">
+        <p> Data Scientist</p>
+        <h1>Hi, I am <span>Somia</span><br> Dousa from Sudan</h1>    
+            
+        </div>
+    </div>
+    </div>
+
+<!-------------------------About---------------------->
+    <div id="about">
+        <div class="container"> 
+            <div class = "row">
+                <div class = "about-col-1">
+                    <img src = "images/aboutme.jpg">
+                </div>
+                <div class = "about-col-2">
+                    <h1 class = "sub-title">About Me</h1>
+                    <p>
+                        I’m a passionate data scientist with a Master’s in Applied Data Science from Syracuse University, where I received the prestigious Convocation Master’s Award and was honored with a Fulbright scholarship. With over two years of experience in data analysis and visualization, I’ve driven strategic decisions in the private sector. Skilled in Python, R, SQL, and Tableau, I excel at turning complex data into actionable insights.
+                        <br><br>I also enjoy spreading knowledge as a Women in Data Science (WiDS) Ambassador, empowering others in the field and advocating for diverse perspectives.  
+                    </p>
+
+                     
+                    <div class="tab-titles">
+
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')" >Education</p>
+                    </div>
+
+                     <!--Skills-->
+                    <div class="tab-contents active-tab" id="skills">
+
+                        <ul>
+                            <li><span>Data Analysis and Visualization</span><br>Building Dashboards using PowerBi</li>
+                            <li><span>Data Scinece</span><br>Building Predictive Modeling</li>
+                            <li><span>Databases and Datawarehouse</span><br>SQL and Snowflakes</li>
+                        </ul>
+                    </div>
+
+                    <!--Experience-->
+                    <div class="tab-contents" id="experience">
+
+                        <ul>
+                            <li><span>May 2024 - present</span><br>Graduate Research Intern</li>
+                            <li><span>Aug 2022 - May 2024</span><br>Teaching Assistant</li>
+                            <li><span>Sept 2020 - Aug 2022</span><br>Data Analyst</li>
+                        </ul>
+                    </div>
+
+                    <!--Education-->
+
+                    <div class="tab-contents" id="education">
+
+                        <ul>
+                            <li><span>May 2024</span><br>Master's of Applied Data Science</li>
+                            <li><span>Nov 2016</span><br>Bachelor's of Electrical and Electronics Engineering</li>
+                        </ul>
+                    </div>
+                    
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+            
+
+        
+    </div>
+    </div>
+<!-------------------------Services---------------------->
+
+<div id="services">
+
+    <div class="container">
+        <h1 class = "sub-title">My Services</h1>
+        <div class="services-list">
+
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Data Analysis </h2>
+                <p>Build dashboard and design using PowerBi </p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-gears"></i>
+                <h2>Data Science </h2>
+                <p>Predictive Modeling </p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <h2>Tutoring </h2>
+                <p> Teach visualization and data analysis </p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+</div>
+
+
+<!-------------------------work---------------------->
+
+<div id="portfolio">
+
+        <div class="container">
+        <h1 class = "sub-title">My Work</h1>
+
+
+        <!--------Data Science --------->
+
+        <h2 class = "title2">Data Science Projects</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Detection of Green Spaces in an Urban Region for Future Urban Revitalization </h3>
+                    <p>Distinguish green space to significantly help the decision-makers to efficiently identify zones for urban green infrastructure management along with associated policies and rules. Skills: Deep learning - Tensorflow | python | Computer Vision</p>
+                    <a href="https://github.com/DewSam/GreenSpaceDetection"><i class="fa-solid fa-link"></i> </a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/big-data-analytics.png">
+                <div class="layer">
+                    <h3>Predictive Modelling to Address Health Disparities in Cancer Diagnosis</h3>
+                    <p>Identified key factors contributing to late diagnoses through PySpark data transformations and machine learning pipelines, providing insights for healthcare policy improvements to reduce disparities in cancer diagnosis and treatment. Skills: PySpark | Hadoop | Predictive Modeling</p>
+                    <a href="#"><i class="fa-solid fa-link"></i> </a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/health-insurance prediction.jpg">
+                <div class="layer">
+                <h3>Optimizing Healthcare Costs: Predictive Analytics and Strategic Insights for HMOs</h3>
+                <p>This project analyzes healthcare data from a Health Management Organization (HMO) to predict high-cost patients and uncover actionable insights. Skills: R| Shiny APP| Classification | SVM| Random Forest</p>
+                <a href="#"><i class="fa-solid fa-link"></i> </a>
+            </div></div>
+
+
+        </div>
+
+          <!--------Data Analysis --------->
+          <h2 class = "title2">Data Analysis Projects</h2>
+          <div class="work-list">
+            <div class="work">
+                <img src="images/Bidding Behaviour.png">
+                <div class="layer">
+                    <h3>Bidding Website Analytics</h3>
+                    <p> Power BI dashboard featuring a captivating and elegant design for a bidding database project, utilizing advanced data visualization techniques, DAX functions for complex calculations, interactive filtering for user-friendly navigation, and custom visuals to enhance data insights.</p>
+                    <a href="https://github.com/DewSam/dataTriUnity_project"><i class="fa-solid fa-link"></i> </a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/h1b.png">
+                <div class="layer">
+                    <h3>H1-B data Analytics</h3>
+                    <p>Comprehensive data analysis to understand the factors that imapact H1-B visa Sponsorship. Skills: R | Adobe illustrator | Data Visualization</p>
+                    <a href="#"><i class="fa-solid fa-link"></i> </a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                <h3>Global Food Insecurity</h3>
+                <p>Study of different food insecurity indicators worldwide. Skills: Tableau</p>
+                <a href="#"><i class="fa-solid fa-link"></i> </a>
+            </div></div>
+
+
+        </div>
+
+
+          <!--------DataBase Design and Datawarehouse --------->
+          <h2 class = "title2">DataBase Design and Datawarehouse</h2>
+          <div class="work-list">
+            <div class="work">
+                <img src="images/data-warehousing1.png">
+                <div class="layer">
+                    <h3>Efficient Data Warehousing: From ETL to Real-Time Analytics</h3>
+                    <p>Designed a scalable data warehouse using Kimball methodology for the Vbay bidding database, structuring data to enhance analytical capabilities. Skills: Snowflake| dbt| SQL | ETL </p>
+                    <a href="https://github.com/DewSam/GreenSpaceDetection"><i class="fa-solid fa-link"></i> </a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Event Management Database Design</h3>
+                    <p>Design and develop the Syracuse Events Management System database, a system that allows university staff/students to host and sign up for events. Skills: SQL | Relational Databses | Microsoft SQL</p>
+                    <a href="#"><i class="fa-solid fa-link"></i> </a>
+                </div>
+            </div>
+
+            <div class="work">
+               
+            </div>
+
+
+        </div>
+
+        <a href="#" class="btn">See More</a>
+
+        </div>
+
+
+</div>
+
+
+<!------------------------contact---------------------->
+<div id="contact">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> rdousa2@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/somia-dousa/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/DewSam"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+
+                <a href="images/Somia-Dousa-Resume.pdf" download class="btn btn2">Download CV</a>
+
+
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="emaail" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" row ="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link")
+        }
+
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab")
+        }
+
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+
+    }
+</script>
+
+<script>
+    var sidemenu =document.getElementById("sidemenu")
+
+    function openmenu() {
+
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+
+        sidemenu.style.right = "-200px";
+
+        }
+
+</script>
+</body>
+</html>
