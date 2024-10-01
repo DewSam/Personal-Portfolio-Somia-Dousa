@@ -404,6 +404,28 @@ form .btn2{
 
 }
 
+.copyright{
+
+       width: 100%;
+       text-align: center;
+       padding: 25px 0;
+       background: #262626; 
+       font-weight: 300;
+       margin-top: 20px;
+
+}
+
+.copyright i {
+
+    color: aliceblue;
+}
+
+
+#msg {
+    color : #61b752;
+    margin-top: -40px;
+    display: block;
+}
 
 /*-------------css for small screen----------*/
 nav .fa-solid{
@@ -483,6 +505,9 @@ nav .fa-solid{
 
     .contact-right, .contact-left{
         flex-basis: 100%;
+    }
+    .copyright{
+        font-size: 14px;
     }
 }
 
