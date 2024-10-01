@@ -509,6 +509,49 @@ nav .fa-solid{
     .copyright{
         font-size: 14px;
     }
+
+
+    /***************work-portfolio******************/
+
+    .layer{
+   
+        font-size: 10px;
+    
+    }
+    
+    .layer h3 {
+        font-weight: 100;
+        margin-bottom: 15px;
+    }
+    
+    .layer a {
+
+ 
+        font-size: 15px;
+        line-height: 15px;
+
+        margin-top: 10px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+      
+     
+    
+    }
+    
+    
+    .btn{
+      
+        margin: 10px auto;
+    
+        border-radius: 3px;
+      
+    
+    }
+
+
+
+
 }
 
 /********My addition**************/
